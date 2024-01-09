@@ -11,9 +11,7 @@ const app = express();
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "build")));
-
-
-
+app.use('/api/users', require('./routes/api/users'));
 
 // ----------------------------[Routes]
 app.get("/*", function (req, res) {
