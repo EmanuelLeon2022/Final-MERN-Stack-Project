@@ -1,5 +1,13 @@
-import * as usersAPI from "./users-api";
+import * as usersAPI from "./users-api"; 
 
+export async function login(credentials){
+    console.log("UserApi token",credentials)
+    const token = await usersAPI.login(credentials)
+    console.log(`Token: ${token}`)
+    localStorage.setItem('token', token)
+    console.log("Check Local Storage")
+    return getUser()
+  }
 export function getToken() {
   // getItem returns null if there's no string
   const token = localStorage.getItem("token");
@@ -24,3 +32,6 @@ export async function signUp(userData) {
   localStorage.setItem("token", token);
   return token;
 }
+export function logOut() {
+  localStorage.removeItem('token');
+  }

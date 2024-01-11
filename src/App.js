@@ -16,14 +16,14 @@ function App() {
 
       {user ? (
         <>
-          <Navbar user={user} />
+          <Navbar user={user} setUser={setUser} />
           <Routes>
             <Route path="/orders/new" element={<NewOrderPage />} />
             <Route path="/orders" element={<OrderHistoryPage/>} />
           </Routes>
         </>
       ) : (
-        <AuthPage />
+        <AuthPage user={user} setUser={setUser}/>
       )}
     </div>
   );
