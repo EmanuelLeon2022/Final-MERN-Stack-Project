@@ -1,13 +1,27 @@
 import * as usersAPI from "./users-api"; 
 
+
+export function checkToken(){
+  return usersAPI.checkToken()
+    // checkToken returns a string, but let's
+    // make it a Date object for more flexibility
+    .then(dateStr => new Date(dateStr));
+}
+
 export async function login(credentials){
-    console.log("UserApi token",credentials)
     const token = await usersAPI.login(credentials)
     console.log(`Token: ${token}`)
     localStorage.setItem('token', token)
     console.log("Check Local Storage")
     return getUser()
   }
+
+  export async function signUp(userData) {
+    const token = await usersAPI.signUp(userData);
+    localStorage.setItem("token", token);
+    return token;
+  }
+
 export function getToken() {
   // getItem returns null if there's no string
   const token = localStorage.getItem("token");
@@ -22,16 +36,13 @@ export function getToken() {
   }
   return token;
 }
+
 export function getUser() {
   const token = getToken();
   // If there's a token, return the user in the payload, otherwise return null
   return token ? JSON.parse(atob(token.split(".")[1])).user : null;
 }
-export async function signUp(userData) {
-  const token = await usersAPI.signUp(userData);
-  localStorage.setItem("token", token);
-  return token;
-}
+
 export function logOut() {
   localStorage.removeItem('token');
   }

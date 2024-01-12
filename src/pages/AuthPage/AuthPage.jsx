@@ -1,13 +1,11 @@
 import React from "react";
-import SignUpForm from "./SignUpForm";
-import LoginForm from "./LoginForm";
+import SignUpForm from "../../components/SignUpForm/SignUpForm";
+import LoginForm from "../../components/LoginForm/LoginForm";
 
 function AuthPage() {
   return<>
     <SignUpForm />
-    {/* {user ? <LoginForm /> : <SignUpForm />} */}
     <LoginForm />
-  
   </>;
 }
 

@@ -1,9 +1,10 @@
 // LoginForm.jsx
 
 import { useState } from 'react';
-import * as usersService from '../utilities/users-service';
+import * as usersService from '../../utilities/users-service';
 
 export default function LoginForm({ setUser }) {
+  
 const [credentials, setCredentials] = useState({
   email: '',
   password: ''
@@ -24,7 +25,6 @@ async function handleSubmit(evt) {
     // payload of the JSON Web Token (JWT)
     const user = await usersService.login(credentials);
     await setUser(user);
-    console.log(`User Submitted: ${user}`)
   } catch {
     setError('Log In Failed - Try Again');
   }

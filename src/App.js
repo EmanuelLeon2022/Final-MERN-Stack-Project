@@ -3,9 +3,9 @@ import "./App.css";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { getUser } from "./utilities/users-service";
-import NewOrderPage from "./components/NewOrderPage";
-import AuthPage from "./components/AuthPage";
-import OrderHistoryPage from "./components/OrderHistoryPage";
+import NewOrderPage from "./pages/NewOrderPage/NewOrderPage.jsx";
+import AuthPage from "./pages/AuthPage/AuthPage.jsx";
+import OrderHistoryPage from "./pages/OrderHistoryPage/OrderHistoryPage.jsx";
 import Navbar from "./components/Navbar";
 
 

@@ -3,8 +3,15 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require('bcrypt')
 module.exports = {
   create,
-  login
+  login,
+  checkToken
 };
+
+function checkToken(req, res) {
+  // req.user will always be there for you when a token is sent
+  console.log('req.user', req.user);
+  res.json(req.exp);
+}
 
 function createJWT(user) {
   console.log("Creating JWT")
@@ -35,10 +42,6 @@ async function login(req, res, next) {
     if (!user) throw new Error();
     let match = await bcrypt.compare(req.body.password, user.password);
     console.log(`MATCH FOUND: ${match}`)
-    
-    // res.locals.data.user = user
-    // res.locals.data.token = createJWT(user)
-
     if (!match) throw new Error();
     res.json(createJWT(user));
     next();
