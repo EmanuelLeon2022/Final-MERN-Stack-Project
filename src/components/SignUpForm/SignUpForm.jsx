@@ -19,7 +19,6 @@ export default class SignUpForm extends Component {
   };
   handleSubmit = async (evt) => {
     evt.preventDefault();
-    // alert(JSON.stringify(this.state));
     try {
         const formData = {...this.state};
         delete formData.error;
