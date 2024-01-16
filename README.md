@@ -13,7 +13,7 @@ Upon opening the website you will be greeted by a lovely Authentication Page, wh
 ## Home Page
 
 ## The Show must go on
-Once again this is my capstone project, so whatever happens from here on after will be either for others, personal use/public use, or just storage.
+Once again this is my capstone project, so whatever happens from here on (in my github) after will be either for others, personal use/public use, or just storage.
 It has been great doing these.
 
 
