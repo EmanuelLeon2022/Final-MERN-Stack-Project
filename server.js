@@ -15,9 +15,6 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "build")));
 app.use(require('./config/checkToken'));
 app.use('/api/users', require('./routes/api/users'));
-app.use('/api/items', ensureLoggedIn, require('./routes/api/items'));
-app.use('/api/orders', ensureLoggedIn, require('./routes/api/orders'));
-
 
 // ----------------------------[Routes]
 

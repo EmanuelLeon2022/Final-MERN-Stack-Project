@@ -1,0 +1,204 @@
+@font-face {
+    font-family: zelda;
+    src: url(The\ Wild\ Breath\ of\ Zelda.otf);
+  }
+  @media screen and (max-width:1880px){
+      .zelda{
+          background-color: black;
+          background-image: url(https://zelda.nintendo.com/assets/img/news/link-hero.png);
+          background-repeat: no-repeat;
+          color: white;
+          height: 200vh;
+          width: auto;
+        }
+        .Form{
+          height: 75vh;
+          margin: auto;
+          width: auto;
+          justify-content: center;
+        }
+        .disp{
+          background-color: rgb(9, 97, 46);
+          height: 90vh;
+        }
+        .desc{
+          display: flex;
+          align-items: center;
+          height: 60vh;
+        }
+        .find{
+          height: 500px;
+          width: 500px;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          position: relative;
+          transform: translate(70vh, 15vh);
+        }
+        .cat{
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          position: relative;
+          transform: translate(5vh, -18vh);
+        }
+        .looks{
+          border-radius: 10px;
+          position: absolute;
+          transform: translate(5vh, 15.5vh);
+          border-radius: 10px;
+        }
+        .where{
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          position: relative;
+          transform: translate(-18.5vh,25vh);
+        }
+        .open{
+          width: 75vh;
+          height: 50vh;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          position: relative;
+          transform: translateX(2.5vh);
+        }
+  }
+  @media screen and (max-width: 950px){
+      .disp{
+        background-color: rgb(9, 97, 46);
+      }
+      p{
+        color: white;
+        text-shadow: green -1px 0;
+      }
+      .zelda{
+        background-color: black;
+        background-repeat: no-repeat;
+        height: 240vh;
+      }
+      .dir{
+        position: fixed;
+        background-color: black;
+        height: 8vh;
+        font-size: medium;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .Form{
+        height: 70vh;
+        margin: auto;
+        width: auto;
+      }
+      .disp{
+        background-color: rgb(9, 44, 97);
+        height: 100vh;
+      }
+      .desc{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+      }
+      .find{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        transform: translate(5vh, 15vh);
+      }
+      .cat{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        transform: translate(5vh, -41vh);
+      }
+      .looks{
+        position: absolute;
+        transform: translate(5vh, 25vh);
+        border-radius: 10px;
+      }
+      .where{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        transform: translate(66vh,-41.5vh);
+      }
+      .open{
+        width: 75vh;
+        height: 50vh;
+        position: relative;
+        transform: translate(3.5vh, 5vh);
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+    }
+    @media screen and (max-width: 600px){
+      .zelda{
+        background-color: black;
+        background-repeat: no-repeat;
+        height: 325vh;
+        width: auto;
+      }
+      .Form{
+        height: 80vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+      .open{
+        width: 50vh;
+        height: 50vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .disp{
+        background-color: rgb(97, 56, 9);
+        height: 170vh;
+        width: auto;
+      }
+      .desc{
+        display: flex;
+        align-items: center;
+        height: 80vh;
+      }
+      .find{
+        height: 500px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        transform: translate(5vh, 90vh);
+      }
+      .cat{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        transform: translate(5vh, -30vh);
+      }
+      .looks{
+        border-radius: 10px;
+        padding: 10px;
+        position: absolute;
+        transform: translate(3vh, 5vh);
+        border-radius: 10px;
+      }
+      .where{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        transform: translate(5vh,38vh);
+      }
+  }
