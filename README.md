@@ -1,5 +1,4 @@
 # FINALE
-========
 This project is a capstone of all my experience in HTML, CSS, JavaScript, REACT.js, Node.js, Express and MERN stack.
 
 ## E Leon
