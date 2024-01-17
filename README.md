@@ -1,4 +1,5 @@
 # FINALE
+========
 This project is a capstone of all my experience in HTML, CSS, JavaScript, REACT.js, Node.js, Express and MERN stack.
 
 ## E Leon
@@ -10,7 +11,10 @@ I have this website as my capstone assignment for Per Scholas, and as way of sho
 ### Authentication Page
 Upon opening the website you will be greeted by a lovely Authentication Page, which hopefully display 
 
-## Home Page
+### Home Page
+
+### Zelda API
+Once you have fully logged in to the website you will have full access to the delights of this website. One of those being the open source Zelda API, you can use it to search up anything related to the famous game _*The Legend of Zelda: The Breath of the Wild*_, it will display where to find the item/creature, what it does, and a brief description about it. 
 
 ## The Show must go on
 Once again this is my capstone project, so whatever happens from here on (in my github) after will be either for others, personal use/public use, or just storage.
