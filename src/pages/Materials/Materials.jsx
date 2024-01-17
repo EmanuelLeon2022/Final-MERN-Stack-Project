@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Materials() {
+function Materials(props) {
   return (
     <div>
       <h1>&nbsp;</h1>

@@ -23,7 +23,7 @@ function App() {
             <Route path="/" element={<Home user={user} setUser={setUser}/>}/>
             <Route path="/zelda" element={<Zelda user={user} setUser={setUser} />} />
             <Route path="/materials" element={<Materials user={user} setUser={setUser}/>}/>
-            <Route path="/inventory" element={<Inventory user={user} setUser={setUser}/>}/>
+            <Route path="/items" element={<Inventory user={user} setUser={setUser}/>}/>
             <Route path="/about" element={<About user={user} setUser={setUser}/>}/>
           </Routes>
         </>
