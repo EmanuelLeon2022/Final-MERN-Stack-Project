@@ -17,6 +17,8 @@ function Zelda() {
 
   return (
     <div className='zelda'>
+      <h1>&nbsp;</h1>
+      <h1>&nbsp;</h1>
         <div className='Form'>
         <h1 style={{fontFamily: 'zelda'}}>ZELDA API</h1>
         <p>&nbsp;</p>
