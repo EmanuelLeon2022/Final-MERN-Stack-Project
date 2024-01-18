@@ -7,7 +7,8 @@ import Home from "./pages/Home/Home.jsx";
 import Zelda from "./pages/Zelda/Zelda.jsx";
 import Materials from './pages/Materials/Materials.jsx'
 import Inventory from "./pages/Inventory/Inventory.jsx";
-import About from "./pages/About/About.jsx";
+import Me from "./pages/Me/Me.jsx";
+import Retro from './pages/Me/Retro.jsx'
 import Navbar from "./components/Navbar/Navbar.jsx";
 
 
@@ -24,7 +25,8 @@ function App() {
             <Route path="/zelda" element={<Zelda user={user} setUser={setUser} />} />
             <Route path="/materials" element={<Materials user={user} setUser={setUser}/>}/>
             <Route path="/items" element={<Inventory user={user} setUser={setUser}/>}/>
-            <Route path="/about" element={<About user={user} setUser={setUser}/>}/>
+            <Route path="/me" element={<Me user={user} setUser={setUser}/>}/>
+            <Route path="/me/but/cooler/I/dunno/what/do/you/think" element={<Retro user={user} setUser={setUser}/>}/>
           </Routes>
         </>
       ) : (

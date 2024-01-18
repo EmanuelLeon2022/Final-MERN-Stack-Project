@@ -19,7 +19,8 @@ function Navbar({user ,setUser}) {
       <Link to="/zelda" style={{padding:"15px"}}><h3>Zelda</h3></Link>
       <Link to="/items"style={{padding:"15px"}}><h3>Inventory</h3></Link>
       <Link to="/materials"style={{padding:"15px"}}><h3>Materials</h3></Link>
-      <Link to="/about" style={{padding:"15px"}}><h3>About</h3></Link>
+      <Link to="/me" style={{padding:"15px"}}><h3>Me</h3></Link>
+      <Link to="/me/but/cooler/I/dunno/what/do/you/think" style={{padding:"15px"}}><h3>Retro</h3></Link>
       <Link to="" style={{padding:"15px"}} onClick={handleLogOut}><h3>Log Out</h3></Link>
       </nav>
     </div>

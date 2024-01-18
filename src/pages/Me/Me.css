@@ -1,0 +1,168 @@
+@font-face {
+  font-family: face;
+  src: url('Valorant\ Font.ttf');
+}
+
+@media screen and (max-width: 1880px){
+      .nam{
+        font-family: face;
+        color: gold;
+      }
+      .nam:hover{
+        text-shadow: red -2px 0, cyan 2px 0;
+      }
+      .meme{
+        background-color: #9d8a62;
+        color: black;
+        justify-content: space-evenly;
+        width: 100%;
+      }
+      .drop{
+        background-color: #0055ff;
+        border: solid white 2px;
+        border-radius: 5px;
+        width: 75vh;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: auto;
+      }
+      .buton{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+      }
+      .lb{
+        display: flex;
+        position: absolute;
+      }
+      .rb{
+        display: flex;
+        position: absolute;
+        transform: translateX(5vh);
+      }
+      .magic{
+        border-radius: 5px;
+        height: 45vh;
+        width: 80vh;
+    }
+    .alpha{
+      width: 75vh;
+      margin: auto;
+      background-color: #3764c8;
+      padding: 20px;
+      border: solid white 2.5px;
+      border-radius: 5px;
+    }
+    .learn{
+      width: 75vh;
+      margin: auto;
+      background-color: #0055ff;
+      padding: 20px;
+      border: solid white 2.5px;
+      border-radius: 5px;
+    }
+  }
+  @media screen and (max-width: 950px){
+    p{
+      color: white;
+    }
+    .meme{
+      width: 100%;
+    }
+    .nam:hover{
+      text-shadow: red -2px 0, cyan 2px 0;
+    }
+    .dir{
+      position: fixed;
+      background-color: black;
+      height: 8vh;
+      font-size: medium;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .meme{
+      background-color: black;
+      width: 100%;
+      color: black;
+    }
+    .drop{
+      background-color: #0055ff;
+      width: 50vh;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .feeter{
+      background-color: #0055ff;
+    }
+    .magic{
+      border-radius: 5px;
+      height: 35vh;
+      width: 58vh;
+  }
+  .alpha{
+    width: 50vh;
+    margin: auto;
+    padding: 15px;
+    border: solid gold 2.5px;
+    border-radius: 5px;
+    background-color: #9d8a62;
+  }
+  .learn{
+    width: 50vh;
+    margin: auto;
+    background-color: #0055ff;
+    padding: 20px;
+    border: solid white 2.5px;
+    border-radius: 5px;
+  }
+}
+  @media screen and (max-width: 600px){
+    body{
+      background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+    }
+    .meme{
+      background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+      width: 100%;
+      background-repeat: repeat-x;
+    }
+    .meme, p{
+      color: white;
+    }
+    .alpha{
+      width: 50vh;
+      margin: auto;
+      padding: 10px;
+      border: solid gold 2.5px;
+      border-radius: 5px;
+      background-color: #0730a1;
+    }
+    .nam{
+      color: white;
+      display: flex;
+      justify-content: center;
+    }
+    .drop{
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      background-color: black;
+      margin: auto;
+    }
+    .learn{
+      width: 50vh;
+      margin: auto;
+      background-color: #720a86;
+      padding: 10px;
+      border: solid white 2.5px;
+      border-radius: 5px;
+    }
+    .magic{
+      border-radius: 5px;
+      height: 30vh;
+      width: 57vh;
+    }
+}
