@@ -1,4 +1,5 @@
 import React from 'react'
+// import 
 
 function Inventory(props) {
   return (
@@ -8,7 +9,7 @@ function Inventory(props) {
       <h1>Inventory Page</h1>
       <a href='/'>Regresar al Indice</a>
             {/* <h1>{props.item.name}</h1> */}
-            {/* <h3>{props.item.type}</h3> */}
+            <h3>{props.item.name}</h3>
             {/* <h3>{props.item.sure ? "Content is Secured" : "Content is Missing"}</h3> */}
     </div>
   )

@@ -9,7 +9,7 @@ function Me() {
       <h1 className='nam'>Emanuel Leon-Vargas</h1>
       <p>&nbsp;</p>
       <div className='alpha'>
-        <h3>Professional Summary</h3>
+        <h2 style={{fontFamily:'face', color:' white'}}>Professional Summary</h2>
         <p style={{fontFamily: 'cursive'}}>I am a rising software engineer with extensive training in Javascript(ES6), HTML5 & CSS3, React, and SQL. Able to utilize PostgreSQL, Git, Github, Node.js, set up firewalls, and databases. Experience in problem solving with a background in construction, and some knowledge in mechanical engineering. Solution drive candidate who is seeking to join a software engineering team within an organization. </p>
       </div>
       <p>&nbsp;</p>

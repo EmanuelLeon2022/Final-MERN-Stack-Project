@@ -1,8 +1,8 @@
 import "../../App.css";
 import { useState } from "react";
 import Card from "../../components/buttons/Card";
-import cardImages from "../../components/models/cardImg";
-import symbols from "../../components/models/symbols";
+import cardImages from "../../components/medols/cardImg";
+import symbols from "../../components/medols/symbols";
 import Button from '../../components/buttons/Button';
 
 //This is from Jordan's example on how to setup a carousel.

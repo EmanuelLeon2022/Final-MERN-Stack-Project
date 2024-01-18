@@ -6,6 +6,7 @@ body{
     background-repeat: repeat-x;
     position: relative;
     /* background-color: black; */
+    border-radius: 10px;
 }
 .steam{
     display: flex;

@@ -1,12 +1,12 @@
 import React from 'react'
+import Checker from './Checker.mp3'
 import './Retro.css'
-import Sprites from '../../components/models/Sprites'
-import Seeds from '../../components/models/Seeds'
+import Sprites from '../../components/medols/Sprites'
+import Seeds from '../../components/medols/Seeds'
 import { useState } from 'react'
 import Carol from './Carol'
 
 function Retro() {
-
   //Calls back to Sonic's Spritesheet
   const [count, setSprite] = useState(0);
   const [currentSprite, setCurrentSprite] = useState(Sprites[count]);
@@ -101,11 +101,10 @@ if(e.keyCode === 87){
 
   return (
     <div className='grade'>
-      <audio src='Checker Death3.mp3'/>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <h1 style={{ fontFamily: 'face' }}>Emanuel's Cooler Resume</h1>
+      <h1 className='nam' style={{ fontFamily: 'face' }}>Emanuel's Cooler Resume</h1>
       <div className='steam'>
         <img src={currentSprite} alt="Sonic the Hedgehog" style={{ height: '120px' }} />
         <div className='prof'>

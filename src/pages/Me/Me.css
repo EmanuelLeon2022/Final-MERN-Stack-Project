@@ -16,6 +16,8 @@
         color: black;
         justify-content: space-evenly;
         width: 100%;
+        border-radius: 10px;
+        border: solid rgb(0, 204, 255) 3px;
       }
       .drop{
         background-color: #0055ff;
@@ -121,9 +123,9 @@
   }
 }
   @media screen and (max-width: 600px){
-    body{
+    /* body{
       background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
-    }
+    } */
     .meme{
       background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
       width: 100%;

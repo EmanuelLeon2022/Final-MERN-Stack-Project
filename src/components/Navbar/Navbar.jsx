@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'
 import * as userService from '../../utilities/users-service'
+
 function Navbar({user ,setUser}) {
 
   function handleLogOut() {

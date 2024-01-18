@@ -8,7 +8,6 @@ const logger = require("morgan");
 const mongoose = require('mongoose')
 const port = 3001;
 const app = express();
-const methodOverride = require('method-override');
 const ensureLoggedIn = require('./config/ensureLoggedIn');
 
 // ----------------------------[Middleware]
@@ -17,11 +16,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "build")));
 app.use(require('./config/checkToken'));
 app.use('/api/users', require('./routes/api/users'));
-app.use(methodOverride('_method'));
 
 // ----------------------------[Routes]
-
-
 app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
