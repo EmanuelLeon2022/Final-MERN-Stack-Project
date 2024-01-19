@@ -1,0 +1,23 @@
+.stonk{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tool{
+    background-color: rgba(104, 89, 82, 0.651);
+    width: 300px;
+    height: 290px;
+    border: solid 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.sir{
+    transform: translate(-70px, 0px);
+}
+.smile{
+    transform: translate(215px,-150px);
+    height: 80px;
+    width: 75px;
+}

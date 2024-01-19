@@ -1,6 +1,6 @@
 const User = require('./models/user');
+const Item = require('./models/item');
+const Stock = require('./models/stock');
 
-
-
-let user, item, name, image, type, battery, brand;
-let users, items, names, images, types, batterys, brands;
+let user, item, stock;
+let users, items, stocks;
