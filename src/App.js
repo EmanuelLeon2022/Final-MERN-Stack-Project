@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { getUser } from "./utilities/users-service";
 import AuthPage from "./pages/AuthPage/AuthPage.jsx";

@@ -1,4 +1,4 @@
-const item = require('./item')
+const item = require('./items')
 const Schema = require('mongoose').Schema
 const itemSchema = new Schema({
     name: { type: String, required: true },

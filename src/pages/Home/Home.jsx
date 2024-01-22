@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import * as userService from '../../utilities/users-service'
 
-function Home(props, user, userService) {
+function Home(props) {
   return (
     <>
       <div>
