@@ -106,7 +106,7 @@ if(e.keyCode === 87){
       <p>&nbsp;</p>
       <h1 className='nam' style={{ fontFamily: 'face' }}>Emanuel's Cooler Resume</h1>
       <div className='steam'>
-        <img src={currentSprite} alt="Sonic the Hedgehog" style={{ height: '120px' }} />
+        <img className='hedge' src={currentSprite} alt="Sonic the Hedgehog" />
         <div className='prof'>
           <h1 style={{ fontFamily: 'face', color: 'white' }}>Professional Summary</h1>
           <p> A rising software engineer with extensive training in Javascript(ES6), HTML5 & CSS3, React, and SQL. Able to utilize PostgreSQL, Git, Github, Node.js, set up firewalls, and databases. Experience in problem solving with a background in construction, and some knowledge in mechanical engineering. Solution drive candidate who is seeking to join a software engineering team within an organization.</p>
@@ -114,7 +114,7 @@ if(e.keyCode === 87){
       </div>
       <h2>&nbsp;</h2>
       <div className='hyrule'>
-        <img src={currentSeed} alt='Link from Zelda' style={{ height: '110px' }} />
+        <img className='het' src={currentSeed} alt='Link from the Legend of Zelda' />
         <div className='exp'>
           <h1 style={{ fontFamily: 'face', color: 'white' }}>Professional Experience</h1>
           <p>&nbsp;</p>

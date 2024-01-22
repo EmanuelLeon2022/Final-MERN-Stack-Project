@@ -9,7 +9,7 @@ function Display(props) {
             <div className="find">
             <h1 style={{fontFamily: 'zelda', fontSize:'30px'}}>Description:</h1>
             <p>{props.currentName.data.description}</p>
-            <p>{props.currentName.message}</p>
+            <p>{props.currentName.data.message}</p>
             </div>
             <div className="looks">
                 <img style={{borderRadius: '10px', height: '220px'}} src={props.currentName.data.image} alt={props.currentName.data.name}/>

@@ -25,7 +25,7 @@ function Material() {
         <h1>&nbsp;</h1>
         <h1>Material</h1>
         <a href='/'>Return to Home</a>
-        <div className= 'stonks'>
+        <div className= 'stonks' style={{display:'flex', flexDirection:'row', justifyContent:'space-evenly'}}>
           <div>
           {""}
           {items.map((item, i) => {

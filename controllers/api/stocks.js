@@ -1,4 +1,4 @@
-const Stock = require('../../models/stock');
+const Stock = require('../../models/stocks');
 module.exports = {
   index,
   show

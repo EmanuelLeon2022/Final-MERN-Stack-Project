@@ -18,7 +18,7 @@ function Form(props) {
 
   return (
     <div>
-        <form on onSubmit={handleSubmit}>
+        <form on onSubmit={handleSubmit} className="slippy">
             <input type="text" name="searchterm" onChange={handleChange} />
             <input type="submit" value="submit"/>
         </form>

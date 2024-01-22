@@ -28,7 +28,8 @@ function Zelda() {
         <p style={{fontFamily: 'zelda', fontSize:'20px'}}>This version does not include the Tears of the Kingdom version of the API.</p>
         <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Also try not to submit a blank request as that might break the site.</p>
         <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Other than that, happy searching</p>
-        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Also if you are using this version https://emanuelleon.onrender.com do not refresh this page. It will declare "Error 404" </p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Also if you are using this version https://emanuelleon.onrender.com </p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>do not refresh this page. It will declare "Error 404" </p>
         <Form gamesearch={getName} />
         </div>
         <div className='disp'>

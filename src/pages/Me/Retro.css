@@ -8,6 +8,12 @@ body{
     /* background-color: black; */
     border-radius: 10px;
 }
+.hedge{
+    height: 110px;
+}
+.het{
+    height: 90px;
+}
 .steam{
     display: flex;
     justify-content: center;
@@ -40,4 +46,44 @@ body{
     border: solid white;
     border-radius: 5px;
     width: 50%;
+}
+
+@media screen and (max-width: 750px){
+    .steam{
+        display: flex;
+        justify-content: center;
+    }
+    .het{
+        height: 65px;
+    }
+    .prof{
+        background-color: black;
+        padding: 10px;
+        border: solid white;
+        border-radius: 5px;
+        width: 40%;
+        font-size: 75%;
+    }
+    .hyrule{
+        display: flex;
+        justify-content: center;
+    }
+    .exp{
+        background-color: blue;
+        padding: 10px;
+        border: solid white;
+        border-radius: 5px;
+        width: 50%;
+    }
+    .skool{
+        display: flex;
+        justify-content: center;
+    }
+    .tawt{
+        background-color: blue;
+        padding: 10px;
+        border: solid white;
+        border-radius: 5px;
+        width: 50%;
+    }
 }
