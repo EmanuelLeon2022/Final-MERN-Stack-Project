@@ -12,7 +12,7 @@ Throughout this page you will see a lot of my imagination placed throughout the 
 Upon opening the website you will be greeted by a lovely Authentication Page, which will stop you from entering the webpage unless you want to create an account, or if you already have an account you can log right in.
 
 ### Home Page
-Once you have fully logged in to the website you will have full access to the delights of this website, which include: [_*Steamboat Willie*_](https://www.theverge.com/24006670/mickey-mouse-steamboat-willie-enters-copyright-public-domain-2024) (which is now Public Domain) greeting you at the home page, my _*Snail Racers*_ game, 2 inventory pages, and an About page.
+Once you have fully logged in to the website you will have full access to the delights of this website, which include: [_*Steamboat Willie*_](https://www.theverge.com/24006670/mickey-mouse-steamboat-willie-enters-copyright-public-domain-2024) (which is now Public Domain) greeting you at the home page, my _*Snail Racers*_ game, 2 inventory pages, my resume, and a Zelda API.
 
 ### Zelda API
 One of these great delights is the open source Zelda API, you can use it to search up anything related to the famous game _*The Legend of Zelda: The Breath of the Wild*_, it will display where to find the item/creature, what it does, and a brief description about it. 

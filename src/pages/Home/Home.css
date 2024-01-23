@@ -1,5 +1,282 @@
 body{
     background-color: rgb(22, 57, 97);
-    color: white;
+    color: black;
     /* background-image: url(''); */
+}
+.main{
+    border-radius: 10px;
+    border: solid white 3px;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+@font-face {
+  font-family: face;
+  src: url('Valorant\ Font.ttf');
+}
+@media screen and (max-width: 1880px){
+  .App {
+    text-align: center;
+  }
+  .broken:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  a:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  .direct{
+    background-color: black;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .manny{
+    font-family: 'face';
+    color: black;
+    text-shadow: blue -3px 0;
+  }
+  .main{
+    width: 100%;
+    /* background-image: url(https://img.wattpad.com/aeb97952861c948e7ceb3bc97294cb5a3c708f1a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f503853345f2d50514357417275773d3d2d3633353831353034312e313536383137666262306466653931353637343836323335373336362e676966); */
+    background-repeat: repeat-x;
+    background-color: rgb(90, 59, 38);
+  }
+  .title{
+    color: red;
+  }
+  p{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  .dir{
+    position: fixed;
+    background-color: black;
+    height: 7vh;
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .pain{
+    font-family: 'temp';
+  }
+  .dojo{
+    color: blue;
+  }
+  .projx{
+    display: flex;
+    flex-direction: column;
+  }
+  .nice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .image1{
+    height: 150px;
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .image2{
+    width: 150px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .image3{
+    height: 165px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .feeter{
+    background-color: #0055ff;
+  }
+  .rasp{
+    width: 90%;
+    height: 50vh;
+    border: solid white 3px;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(43, 117, 136);
+    /* background-image: url(https://i.redd.it/xso2r53a1b1a1.gif); */
+  }
+  .rasp, h3{
+    color: white;
+    font-family: 'face';
+  }
+  .snail{
+    width: 90%;
+    height: 210px;
+    border: solid red 3px;
+    border-radius: 5px;
+    align-items: center;
+    background-image: url(https://i.gifer.com/AQnX.gif);
+    margin: auto;
+  }
+  .web{
+    width: 90%;
+    height: 210px;
+    border: solid blue 3px;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/43/2d/5c/432d5c27dc56cf23c7d2b386bd57378e.gif);
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .lego{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .age{
+    border: solid cadetblue;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(70, 66, 66);
+    width: 75%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 35px;
+  }
+}
+@media screen and (max-width: 990px){
+  .App {
+    text-align: center;
+  }
+  .direct{
+    background-color: black;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .main{
+    background-color: rgb(3, 59, 59)
+  }
+  .title{
+    color: red;
+  }
+  p{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  .dir{
+    position: fixed;
+    background-color: black;
+    height: 8vh;
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Form{
+    height: 50vh;
+  }
+  .pain{
+    font-family: "spacetime";
+  }
+  .nice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image1{
+    height: 150px;
+    width: 300px;
+  }
+  .image2{
+    rotate: 270deg;
+    width: 150px;
+    height: 300px;
+  }
+  .manny{
+    font-family: 'face';
+    color: red;
+    text-shadow: #0055ff
+  }
+  .feeter{
+    background-color: #0055ff;
+  }
+  .broken, a:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  .rasp{
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    height: 120vh;
+    border: solid white 3px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    /* background-image: url(https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif); */
+    background-color: rgb(43, 117, 136);
+  }
+  .rasp, h3{
+    color: white;
+    font-family: 'face';
+  }
+  .snail{
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid red 3px;
+    align-items: center;
+    background-image: url(https://i.gifer.com/AQnX.gif);
+    margin: auto;
+  }
+  .web{
+    width: 50%;
+    height: 100vh;
+    border: solid blue 3px;
+    background-image: url(https://i.pinimg.com/originals/8e/14/55/8e145599d4847e339828787162952035.gif);
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .lego{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px){
+  .manny{
+    color: red;
+  }
+  .pain{
+    color: white;
+  }
+  .broken:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  .rasp{
+    padding: 10px;
+    width: 60vh;
+    height: 120vh;
+  }
+  .snail{
+    padding: 10px;
+    width: 60vh;
+  }
+  .web{
+    padding: 10px;
+    width: 60vh;
+    height: 95vh;
+  }
 }
