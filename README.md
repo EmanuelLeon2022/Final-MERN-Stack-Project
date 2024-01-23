@@ -25,6 +25,12 @@ On this page you will find my resume in two forms, a more formal one, and a cool
 
 *I think?*
 
+### Issues
+I had a lot of issues with the CSS on inventory pages, the loading of the mongoDB API's I made, and issues with the DELETE functions.
+
+### How it Works
+The backend of the website is running off of Express, which is pulling in the MongoDB and allowsthe users to login and out, if the backend is not running, there will be an infinite Authentication Page
+
 ## The Show must go on
 Once again this is my capstone project, so whatever happens from here on (in my github) after will be either for others, personal use/public use, or just storage.
 It has been great doing these.

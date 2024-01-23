@@ -1,6 +1,5 @@
 import React from 'react'
 import './Material.css'
-// import Edit from '../../components/Tem/Edit'
 import New from '../../components/Tem/New'
 
 function Material(props) {
@@ -23,7 +22,7 @@ function Material(props) {
                 <p>Type: {item.type}</p>
                 <p>Battery: {item.battery} V</p>
                 <p>Brand: {item.brand}</p>
-                <p>ID:{item._id}</p>
+                <p>ID: {item._id}</p>
                 </div>
                 <img className='smiles' src={item.image} alt={item.name} />
                 {""}

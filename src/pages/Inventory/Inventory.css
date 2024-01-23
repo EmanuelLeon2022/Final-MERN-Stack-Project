@@ -21,3 +21,8 @@
     transform: translate(215px,-150px);
     width: 75px;
 }
+button{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}

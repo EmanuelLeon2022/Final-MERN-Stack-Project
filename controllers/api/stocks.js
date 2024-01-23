@@ -2,7 +2,8 @@ const Stock = require('../../models/stocks');
 module.exports = {
   create,
   index,
-  show
+  show,
+  crop,
 };
 
 async function create(req, res){
@@ -34,4 +35,14 @@ async function show(req, res) {
   }catch(e){
     res.status(400).json({ msg: e.message });
   }  
+}
+
+async function crop(req, res){
+  try{
+    const stock = await Stock.findByIdAndDelete(req.params.id);
+    res.status(202).json(stock);
+  }
+  catch(e){
+    res.status(400).json({msg: e.message});
+  }
 }

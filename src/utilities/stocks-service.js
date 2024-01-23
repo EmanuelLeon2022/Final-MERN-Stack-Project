@@ -5,3 +5,8 @@ export async function loadUp(stockData) {
     localStorage.setItem("tebu", tebu);
     return tebu;
   }
+export async function endMe(stockData){
+  const tebu = await stocksAPI.endMe(stockData);
+  localStorage.removeItem("tebu", tebu);
+  return tebu;
+}
