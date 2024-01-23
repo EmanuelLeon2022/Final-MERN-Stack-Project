@@ -38,7 +38,7 @@ export default class SignUpForm extends Component {
 
     return (
       <>
-        <div>SignUpForm</div>
+        <h1 style={{fontFamily:'face', color:'white', textShadow:'blue 2px -2.5px'}}>SignUpForm</h1>
         <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit} style={{margin:"1em"}}>
             <label>Name</label>
