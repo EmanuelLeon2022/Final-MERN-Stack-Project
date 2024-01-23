@@ -1,24 +1,7 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
-import * as itemsapi from '../../utilities/items-api'
 import './Material.css'
 
-function Material() {
-  // Abdul heldped me get this section setup
-  const [items, setItems] = useState();
-  useEffect( ()=>{
-    async function fetchData(){
-      try {
-        const data = await itemsapi.getAll();
-        setItems(data)
-        console.log(data)
-      } catch(e){
-        console.log("didn't fetch the items", e.message)
-      }
-    }
-    fetchData();
-  },[])
-  // End
+function Material(props) {
     return (
       <div>
         <h1>&nbsp;</h1>
@@ -28,7 +11,7 @@ function Material() {
         <div className= 'stonks' style={{display:'flex', flexDirection:'row', justifyContent:'space-evenly'}}>
           <div>
           {""}
-          {items.map((item, i) => {
+          {props.items.map((item, i) => {
             return (
               <div className='tools'>
                 {" "}

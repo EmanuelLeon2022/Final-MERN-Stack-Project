@@ -1,9 +1,3 @@
-.stonk{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 .tool{
     background-color: rgba(104, 89, 82, 0.651);
     width: 300px;

@@ -8,8 +8,10 @@
           background-image: url(https://zelda.nintendo.com/assets/img/news/link-hero.png);
           background-repeat: no-repeat;
           color: white;
-          height: 250vh;
+          height: 260vh;
           width: auto;
+          border: solid white 3px;
+          border-radius: 5px;
         }
         .Form{
           text-align: center;
@@ -83,7 +85,7 @@
         border-radius: 10px;
         border: solid 3px white;
         background-repeat: no-repeat;
-        height: 250vh;
+        height: 270vh;
       }
       .dir{
         position: fixed;
@@ -150,7 +152,7 @@
       .zelda{
         background-color: black;
         background-repeat: no-repeat;
-        height: 370vh;
+        height: 400vh;
         width: auto;
       }
       .Form{

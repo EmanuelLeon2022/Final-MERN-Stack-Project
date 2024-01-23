@@ -92,7 +92,7 @@
     }
     .drop{
       background-color: #0055ff;
-      width: 50vh;
+      width: 75vh;
       display: flex;
       flex-direction: column;
       margin: auto;
@@ -106,7 +106,7 @@
       width: 58vh;
   }
   .alpha{
-    width: 50vh;
+    width: 75vh;
     margin: auto;
     padding: 15px;
     border: solid gold 2.5px;
@@ -114,7 +114,7 @@
     background-color: #9d8a62;
   }
   .learn{
-    width: 50vh;
+    width: 75vh;
     margin: auto;
     background-color: #0055ff;
     padding: 20px;
@@ -135,7 +135,7 @@
       color: white;
     }
     .alpha{
-      width: 50vh;
+      width: 350px;
       margin: auto;
       padding: 10px;
       border: solid gold 2.5px;
@@ -155,7 +155,7 @@
       margin: auto;
     }
     .learn{
-      width: 50vh;
+      width: 350px;
       margin: auto;
       background-color: #720a86;
       padding: 10px;

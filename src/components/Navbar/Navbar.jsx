@@ -14,7 +14,7 @@ function Navbar({user ,setUser}) {
   return (
     <>
     <div className="navi">
-      <nav style={{justifyContent: "space-evenly", display: "flex"}}>
+      <nav /*style={{justifyContent: "space-evenly", display: "flex"}}*/>
       <Link className="" to="/" style={{padding:"15px" }}><h3>Home</h3></Link>
       <Link to="https://epic-turbo-thunder-snail-racers.onrender.com/" target="_blank" style={{padding:"15px"}}><h3>Snail Race</h3></Link>
       <Link to="/zelda" style={{padding:"15px"}}><h3>Zelda</h3></Link>
