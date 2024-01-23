@@ -9,7 +9,8 @@ function Inventory(props) {
       <h1>&nbsp;</h1>
       <h1>Inventory Page</h1>
       <a href='/'>Return to Home</a>
-      <div className= 'stonk'>
+      <p>&nbsp;</p>
+      <div>
           <div className= 'stank'>
           {""}
           {props.stocks.map((stock, i) => {
@@ -17,10 +18,9 @@ function Inventory(props) {
               <div className='tool'>
                 {" "}
                 <h3 className='sir'>{stock.name} :</h3>
-                <p>Type: {stock.type}</p>
+                <p>Type: {stock.usage}</p>
                 <p>Amount: {stock.strength}</p>
-                <img className='smile' src={stock.image} alt={stock.name} style={{height:'50px', width:'50px'}} />
-                <p>Brand: {stock.brand}</p>
+                <img className='smile' src={stock.image} alt={stock.name} />
                 {""}
               </div>
             )

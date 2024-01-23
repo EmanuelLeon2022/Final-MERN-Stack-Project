@@ -2,21 +2,22 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .tool{
-    background-color: rgba(104, 89, 82, 0.651);
+    background-color: rgba(31, 78, 165, 0.651);
     width: 300px;
     height: 290px;
     border: solid 3px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
-.sir{
-    transform: translate(-70px, 0px);
+.sir, p{
+    padding-left: 10px;
 }
 .smile{
     transform: translate(215px,-150px);
-    height: 100px;
-    width: 100px;
+    width: 75px;
 }

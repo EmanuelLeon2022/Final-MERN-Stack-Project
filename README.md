@@ -17,10 +17,11 @@ Once you have fully logged in to the website you will have full access to the de
 ### Zelda API
 One of these great delights is the open source Zelda API, you can use it to search up anything related to the famous game _*The Legend of Zelda: The Breath of the Wild*_, it will display where to find the item/creature, what it does, and a brief description about it. 
 
-### Materials & Inventory
-The way that this should work is it has the list of all the items you have in your inventory. The materials page 
+### Tools & Supplies
+The way that this should work is it has the list of all the items you have in your inventory. The _*Tools*_ page contains the info about all of your gizmos and gadgets, their manufacturer, the usage of the item, and its requirements. The _*Supplies*_ page tells you what items you have in your pocket, such as food & materials.
 
-### About
+### Me & Retro
+On this page you will find my resume
 
 
 ## The Show must go on
