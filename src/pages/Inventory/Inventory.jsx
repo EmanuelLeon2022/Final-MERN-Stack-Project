@@ -7,7 +7,8 @@ function Inventory(props) {
     <div className='stash'>
       <h1>&nbsp;</h1>
       <h1>&nbsp;</h1>
-      <h1>Inventory Page</h1>
+      <h1>&nbsp;</h1>
+      <h1 style={{fontFamily:'face', color:'white'}}>Inventory Page</h1>
       <a href='/'>Return to Home</a>
       <p>&nbsp;</p>
       <div>

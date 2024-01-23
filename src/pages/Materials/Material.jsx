@@ -7,7 +7,8 @@ function Material(props) {
       <div>
         <h1>&nbsp;</h1>
         <h1>&nbsp;</h1>
-        <h1>Material</h1>
+        <h1>&nbsp;</h1>
+        <h1 style={{fontFamily:'face', color:'white'}}>Material</h1>
         <a href='/'>Return to Home</a>
         <p>&nbsp;</p>
         <div>
