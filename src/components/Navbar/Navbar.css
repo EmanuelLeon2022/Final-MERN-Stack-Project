@@ -30,7 +30,7 @@
         border: solid rgb(6, 18, 185);
         border-radius: 5px;
         padding-left: 10px;
-        cursor: url(https://art.pixilart.com/f1d8b19c56fb7d2.png), pointer;
+        /* cursor: url(https://art.pixilart.com/f1d8b19c56fb7d2.png), pointer; */
     }
 }
 @media screen and (max-width: 1000px) {
