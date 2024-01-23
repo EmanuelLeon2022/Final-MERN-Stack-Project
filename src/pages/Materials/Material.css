@@ -4,6 +4,9 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+.sirs{
+    padding-left: 10px;
+}
 .tools{
     background-color: black;
     width: 300px;
@@ -15,7 +18,10 @@
     text-align: left;
 }
 .smiles{
-    transform: translate(145px, -200px);
-    height: 150px;
-    width:150px;
+    transform: translate(170px, -100px);
+    height: 120px;
+    width:120px;
+}
+.chili{
+    transform: translateY(-60px);
 }

@@ -21,10 +21,12 @@ function Material(props) {
                 <h3>{item.name} :</h3>
                 <p>Type: {item.type}</p>
                 <p>Battery: {item.battery} V</p>
+                <img className='smiles' src={item.image} alt={item.name} />
+                <div className='chili'>
                 <p>Brand: {item.brand}</p>
                 <p>ID: {item._id}</p>
                 </div>
-                <img className='smiles' src={item.image} alt={item.name} />
+                </div>
                 {""}
               </div>
             )
