@@ -47,7 +47,7 @@ function Home(props) {
       </div>
       <p>&nbsp;</p>
       <div className='web'>
-      <h3 ><a style={{fontFamily: 'face',fontSize:'30px', color:'black'}} href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
+      <h3 ><a style={{fontFamily: 'face',fontSize:'30px', color:'black'}} href='https://github.com/EmanuelLeon2022/Final-MERN-Stack-Project' target='_blank'>Website</a></h3>
         <div className='lego'>
           <img className='image3' src="https://content.instructables.com/FZD/12Y6/LPV7K7W3/FZD12Y6LPV7K7W3.png?auto=webp&frame=1&width=1024&fit=bounds&md=4d412df54b376277d844104e75041f8e" alt="Website in Development" />
           <img className='image3' src="https://content.instructables.com/FIK/VBK6/LPV7KAT2/FIKVBK6LPV7KAT2.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=5bda058e2f14bebfe3e59acaf9881d43" alt="Website in Development" />

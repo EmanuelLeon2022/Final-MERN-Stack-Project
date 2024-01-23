@@ -6,6 +6,7 @@ function Me() {
     <div className='meme'>
       <h1>&nbsp;</h1>
       <h1>&nbsp;</h1>
+      <h1>&nbsp;</h1>
       <h1 className='nam'>Emanuel Leon-Vargas</h1>
       <p>&nbsp;</p>
       <div className='alpha'>
