@@ -27,9 +27,10 @@ On this page you will find my resume in two forms, a more formal one, and a cool
 
 ### Issues
 I had a lot of issues with the CSS on inventory pages, the loading of the mongoDB API's I made, and issues with the DELETE functions.
+For a while, the inventory and the supplies page loaded to quickly for the database to pull the items, so the site would crash, I fixed it by adding the direct upload to the App.js in stead of the page in which it would load on.
 
 ### How it Works
-The backend of the website is running off of Express, which is pulling in the MongoDB and allowsthe users to login and out, if the backend is not running, there will be an infinite Authentication Page
+The backend of the website is running off of Express, which is pulling in the MongoDB and allowsthe users to login and out, if the backend is not running, there will be an infinite Authentication Page. Along with that some of the items in the inventory page will not work.
 
 ## The Show must go on
 Once again this is my capstone project, so whatever happens from here on (in my github) after will be either for others, personal use/public use, or just storage.
