@@ -1,20 +1,93 @@
-import React from "react";
+import React, {Component} from "react";
+import { loadUp } from "../../utilities/items-service";
 
-function New() {
-  return (
-    <>
-    <div style={{textAlign:'center', color:'white',backgroundImage:'url(https://images.unsplash.com/photo-1514377006585-6e7975371bd6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNocmlzdG1hc3xlbnwwfHwwfHx8MA%3D%3D)'}}>
-    <a href="/gifts" style={{color:'white', fontSize:'20px'}}>Regresar al Indice</a>
-      <h1>Forma de Regalo</h1>
-      <form action="/gifts" method="POST"><br/>
-        Name: <input style={{margin:"1em"}} type="text" name="name" /><br/>
-        Regalo Querido: <input  style={{margin:"1em"}}type="text" name="item" /><br/>
-        Estas Seguro(a): <input  style={{margin:"1em"}}type="checkbox" name="sure" /><br/>
-        <input style={{margin:"1em", borderRadius:'5px'}} type="submit" value="Envíar" />
-      </form>
-    </div>
-    </>
-  );
+export default class New extends Component {
+  state = {
+    name: "",
+    image: "",
+    type: "",
+    battery: "",
+    brand: "",
+    // error: "",
+  };
+
+  handleChange = (evt) => {
+    this.setState({
+      [evt.target.name]: evt.target.value,
+      error: ''
+    });
+  };
+  handleSubmit = async (evt) => {
+    evt.preventDefault();
+    try {
+        const formData = {...this.state};
+        delete formData.error;
+        delete formData.confirm;
+        const item = await loadUp(formData);
+        console.log(item)
+
+    } catch (error) {
+        this.setState({
+            error: "Item Creation Failed"
+        })
+    }
+  };
+
+  render() {
+
+    return (
+      <>
+        <div style={{width:'50%', display:'flex', justifyContent:'center', flexDirection:'column', textAlign:'left'}}>
+        <h1>New Tool Form</h1>
+          <form autoComplete="off" onSubmit={this.handleSubmit} style={{margin:"1em"}}>
+            <label>Name</label>
+            <input
+              type="text"
+              name="name"
+              value={this.state.name}
+              onChange={this.handleChange}
+              required
+            />
+            <label>Image</label>
+            <input
+              type="text"
+              name="image"
+              value={this.state.image}
+              onChange={this.handleChange}
+              required
+            />
+            <label>Type</label>
+            <input
+              type="text"
+              name="type"
+              value={this.state.type}
+              onChange={this.handleChange}
+              required
+            />
+            <label>Battery Voltage</label>
+            <input
+              type="text"
+              name="battery"
+              value={this.state.battery}
+              onChange={this.handleChange}
+              required
+            />
+            <label>Brand</label>
+            <input
+              type="text"
+              name="brand"
+              value={this.state.brand}
+              onChange={this.handleChange}
+              required
+            />
+            <button type="submit">
+              ADD
+            </button>
+          </form>
+        </div>
+        {/* <p className="error-message">{this.state.error}</p> */}
+        
+      </>
+    );
+  }
 }
-
-export default New;
