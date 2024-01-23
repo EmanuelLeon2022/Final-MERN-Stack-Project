@@ -4,14 +4,13 @@ import './Inventory.css'
 
 function Inventory(props) {
   return (
-    
-    <div>
+    <div className='stash'>
       <h1>&nbsp;</h1>
       <h1>&nbsp;</h1>
       <h1>Inventory Page</h1>
       <a href='/'>Return to Home</a>
       <div className= 'stonk'>
-          <div>
+          <div className= 'stank'>
           {""}
           {props.stocks.map((stock, i) => {
             return (

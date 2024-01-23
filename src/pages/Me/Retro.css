@@ -1,10 +1,10 @@
-body{
-    /* background-image: url(https://64.media.tumblr.com/f40fad30a10368fa1b32c3a0a9f61d40/tumblr_psw6ybdabW1uxrf48o1_640.gifv); */
+.grade{
+    background-image: url(https://64.media.tumblr.com/f40fad30a10368fa1b32c3a0a9f61d40/tumblr_psw6ybdabW1uxrf48o1_640.gifv);
     /* background-image: url(https://i.redd.it/97wpqwc5p5w91.gif); */
     /* background-image: url('./Fall.jpg'); */
-    background-size: 100% 80%;
+    /* background-size: 100% 80%; */
     background-repeat: repeat-x;
-    position: relative;
+    /* position: relative; */
     /* background-color: black; */
     border-radius: 10px;
 }
@@ -52,6 +52,10 @@ body{
 }
 
 @media screen and (max-width: 750px){
+    .grade{
+        background-image: url(https://i.redd.it/a9wx37l9yfi41.gif);
+        background-repeat: no-repeat;
+    }
     .steam{
         display: flex;
         justify-content: center;
@@ -87,6 +91,48 @@ body{
         padding: 10px;
         border: solid white;
         border-radius: 5px;
-        width: 50%;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px){
+    .grade{
+        background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+    }
+    .steam{
+        display: flex;
+        justify-content: center;
+    }
+    .het{
+        height: 65px;
+    }
+    .prof{
+        background-color: black;
+        padding: 10px;
+        border: solid white;
+        border-radius: 5px;
+        width: 60%;
+        font-size: 75%;
+    }
+    .hyrule{
+        display: flex;
+        justify-content: center;
+    }
+    .exp{
+        background-color: blue;
+        padding: 10px;
+        border: solid white;
+        border-radius: 5px;
+        width: 60%;
+    }
+    .skool{
+        display: flex;
+        justify-content: center;
+    }
+    .tawt{
+        background-color: blue;
+        padding: 10px;
+        border: solid white;
+        border-radius: 5px;
+        width: 60%;
     }
 }

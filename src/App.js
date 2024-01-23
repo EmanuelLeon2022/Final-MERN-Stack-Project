@@ -52,8 +52,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home user={user} setUser={setUser}/>}/>
             <Route path="/zelda" element={<Zelda user={user} setUser={setUser} />} />
-            <Route path="/items" element={<Inventory user={user} setUser={setUser} stocks={stocks}/>}/>
-            <Route path="/stocks" element={<Material user={user} setUser={setUser} items={items}/>}/>
+            <Route path="/supplies" element={<Inventory user={user} setUser={setUser} stocks={stocks}/>}/>
+            <Route path="/tools" element={<Material user={user} setUser={setUser} items={items}/>}/>
             <Route path="/me" element={<Me user={user} setUser={setUser}/>}/>
             <Route path="/me/cooler" element={<Retro user={user} setUser={setUser}/>}/>
           </Routes>
