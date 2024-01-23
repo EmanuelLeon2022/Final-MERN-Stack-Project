@@ -27,13 +27,13 @@
         text-decoration: none;
     }
     a:hover{
-        border: solid rgb(216, 135, 13);
+        border: solid rgb(6, 18, 185);
         padding-left: 10px;
     }
 }
 @media screen and (max-width: 1000px) {
     a:hover{
-        border: solid rgb(216, 135, 13);
+        border: solid rgb(0, 13, 199);
         padding-left: 10px;
     }
     .navi{
