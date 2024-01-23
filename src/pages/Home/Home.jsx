@@ -17,7 +17,9 @@ function Home(props) {
         </div> */}
         <h1>&nbsp;</h1>
       <div className='main'>
+        <h1>&nbsp;</h1>
       <h1 style={{ fontSize:'50px', fontFamily:'face', color:'black'}}>Welcome {props.user.name}!!!</h1>
+      <p>&nbsp;</p>
         <img width="85%" style={{ borderRadius: '10px', opacity:'85%' }} src="https://www.hometheaterforum.com/wp-content/uploads/2023/01/Mickey-and-Minnie-V1_feat.jpg" alt="STEAMBOAT WILLIE HAHAHA PUBLIC DOMAIN DISNEY!!! WHAT ARE YOU GONNA DO... SUE ME!!!" />
         <p>Throughout this page you will see a lot of my imagination placed throughout the page, most of them being fictional items, in the inventory and materials page set as placeholders. In my website you will find some of my past projects, some new ones, my resume page, and an inventory page.</p>
         <div>
@@ -27,7 +29,7 @@ function Home(props) {
       <h1>&nbsp;</h1>
       <div className='pain'>
         <h1>&nbsp;</h1>
-        <h1 style={{ fontSize:'50px'}} className='manny'>PROJEX</h1>
+        <h1 style={{ fontSize:'50px',color:'white'}} className='manny'>PROJEX</h1>
         <p>&nbsp;</p>
       </div>
       <div className='rasp'>
@@ -64,12 +66,12 @@ function Home(props) {
         >Website</p></a>
       </div>
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
-    </div>
-        <div className='about'>
-          <h1>About</h1>
+      <div className='about' >
+          <h1 style={{fontFamily:'face' , color:'white'}}>About</h1>
           <p>I have this website as my capstone assignment for Per Scholas, and as way of showcasing my skills to future employers, people interested in my work, my family and friends, and to myself. In the end my reason for making this assignment to fullest potential is because of this key moral, my work isn't just for those who asked for it, but also to <a style={{color:'lightBlue'}}href='https://biblehub.com/bsb/colossians/3.htm#:~:text=23Whatever%20you%20do%2C%20work%20at%20it%20with%20your%20whole%20being%2C%20for%20the%20Lord%20and%20not%20for%20men%2C%2024because%20you%20know%20that%20you%20will%20receive%20an%20inheritance%20from%20the%20Lord%20as%20your%20reward.%20It%20is%20the%20Lord%20Christ%20you%20are%20serving.'>present my best work to God</a> </p>
         </div>
+        <p>&nbsp;</p>
+    </div>
         <h1>&nbsp;</h1>
       </div>
     </>

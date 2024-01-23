@@ -37,7 +37,7 @@ body{
   .manny{
     font-family: 'face';
     color: black;
-    text-shadow: blue -3px 0;
+    text-shadow: rgb(243, 82, 14) -3px 0;
   }
   .main{
     width: 100%;
