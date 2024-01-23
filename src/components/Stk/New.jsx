@@ -1,13 +1,12 @@
 import React, {Component} from "react";
-import { loadUp } from "../../utilities/items-service";
+import { loadUp } from "../../utilities/stocks-service";
 
 export default class New extends Component {
   state = {
     name: "",
     image: "",
-    type: "",
-    battery: "",
-    brand: "",
+    usage: "",
+    strength: "",
     // error: "",
   };
 
@@ -23,8 +22,8 @@ export default class New extends Component {
         const formData = {...this.state};
         delete formData.error;
         delete formData.confirm;
-        const item = await loadUp(formData);
-        console.log(item)
+        const stock = await loadUp(formData);
+        console.log(stock)
 
     } catch (error) {
         this.setState({
@@ -38,7 +37,7 @@ export default class New extends Component {
     return (
       <>
         <div style={{width:'50%', display:'flex', justifyContent:'center', flexDirection:'column', textAlign:'left'}}>
-        <h1>New Tool Form</h1>
+        <h1>New Item Form</h1>
           <form autoComplete="off" onSubmit={this.handleSubmit} style={{margin:"1em"}}>
             <label>Name</label>
             <input
@@ -59,24 +58,16 @@ export default class New extends Component {
             <label>Type</label>
             <input
               type="text"
-              name="type"
-              value={this.state.type}
+              name="usage"
+              value={this.state.usage}
               onChange={this.handleChange}
               required
             />
-            <label>Battery Voltage</label>
+            <label>Quantity</label>
             <input
-              type="text"
-              name="battery"
-              value={this.state.battery}
-              onChange={this.handleChange}
-              required
-            />
-            <label>Brand</label>
-            <input
-              type="text"
-              name="brand"
-              value={this.state.brand}
+              type="number"
+              name="strength"
+              value={this.state.strength}
               onChange={this.handleChange}
               required
             />

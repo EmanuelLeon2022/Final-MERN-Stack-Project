@@ -9,3 +9,11 @@ export function getAll() {
 export function getById(id) {
   return sendRequest(`${BASE_URL}/${id}`);
 }
+
+export async function loadUp(stockData) {
+  return sendRequest(BASE_URL, "POST", stockData)
+}
+
+// export async function endMe(stockData){
+//   return sendRequest(BASE_URL, "")
+// }

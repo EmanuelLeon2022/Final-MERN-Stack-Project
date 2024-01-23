@@ -1,6 +1,6 @@
 import React from 'react'
 import './Inventory.css'
-
+import New from '../../components/Stk/New'
 
 function Inventory(props) {
   return (
@@ -27,6 +27,7 @@ function Inventory(props) {
           })}
           </div>
         </div>
+        <New/>
         <p>&nbsp;</p>
     </div>
   )

@@ -23,6 +23,7 @@ function Material(props) {
                 <p>Type: {item.type}</p>
                 <p>Battery: {item.battery} V</p>
                 <p>Brand: {item.brand}</p>
+                <p>ID:{item._id}</p>
                 </div>
                 <img className='smiles' src={item.image} alt={item.name} />
                 {""}
