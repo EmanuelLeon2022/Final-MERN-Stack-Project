@@ -1,8 +1,19 @@
 const Item = require('../../models/items');
 module.exports = {
+  create,
   index,
   show
 };
+
+async function create(req, res){
+  try{
+    let item = await Item.create(req.body)
+    console.log(item)
+  }
+  catch(error){
+    res.status(400).json(error)
+  }
+}
 
 async function index(req, res) {
   try{

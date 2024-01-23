@@ -1,5 +1,7 @@
 import React from 'react'
 import './Material.css'
+// import Edit from '../../components/Tem/Edit'
+import New from '../../components/Tem/New'
 
 function Material(props) {
     return (
@@ -29,6 +31,7 @@ function Material(props) {
           })}
           </div>
         </div>
+        <New/>
       </div>
     )
   }

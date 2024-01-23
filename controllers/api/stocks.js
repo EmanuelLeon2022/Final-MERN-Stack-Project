@@ -1,8 +1,19 @@
 const Stock = require('../../models/stocks');
 module.exports = {
+  create,
   index,
   show
 };
+
+async function create(req, res){
+  try{
+    let stock = await Stock.create(req.body)
+    console.log(stock)
+  }
+  catch(error){
+    res.status(400).json(error)
+  }
+}
 
 async function index(req, res) {
   try{
