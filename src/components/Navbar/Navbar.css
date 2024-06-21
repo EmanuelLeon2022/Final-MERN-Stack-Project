@@ -27,7 +27,7 @@
         text-decoration: none;
     }
     a:hover{
-        border: solid rgb(6, 18, 185);
+        /* border: solid rgb(6, 18, 185); */
         border-radius: 5px;
         padding-left: 10px;
         /* cursor: url(https://art.pixilart.com/f1d8b19c56fb7d2.png), pointer; */
@@ -35,7 +35,7 @@
 }
 @media screen and (max-width: 1000px) {
     a:hover{
-        border: solid rgb(0, 13, 199);
+        /* border: solid rgb(0, 13, 199); */
         border-radius: 5px;
         padding-left: 10px;
     }
@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 700px) {
     a:hover{
-        border: solid rgb(16, 13, 216);
+        /* border: solid rgb(16, 13, 216); */
         border-radius: 5px;
         padding-left: 10px;
     }
@@ -60,7 +60,7 @@
 }
 @media screen and (max-width: 650px) {
     a:hover{
-        border: solid rgb(216, 135, 13);
+        /* border: solid rgb(216, 135, 13); */
         padding-left: 10px;
     }
     .navi{
