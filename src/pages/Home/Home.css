@@ -17,7 +17,7 @@ body{
   font-family: face;
   src: url('Valorant\ Font.ttf');
 }
-@media screen and (max-width: 1880px){
+@media screen and (max-width: 2000px){
   .App {
     text-align: center;
   }

@@ -4,8 +4,7 @@ import { useState } from 'react'
 import './Zelda.css'
 
 function Zelda() {
-    const [name, setName] = useState(null)
-
+  const [name, setName] = useState(null)
   const getName = async(searchterm) =>{
     const response = await fetch(`https://botw-compendium.herokuapp.com/api/v3/compendium/entry/${searchterm}`)
     const dot = await response.json()
