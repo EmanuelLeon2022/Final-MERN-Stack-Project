@@ -38,7 +38,7 @@ function Zelda() {
         <div className='open'>
           <p>As you can see from what is above, this is an API for the Legend of Zelda API. The site is open source meaning anyone can use it, and as a bonus the community that developed it has made so that you do not need to place an API key within it, meaning you can input any search however many times you want. Here is their link if you want to check them out.</p>
           <p>&nbsp;</p>
-          <a href='https://gadhagod.github.io/Hyrule-Compendium-API/#/'  target='_blank'>Zelda Comendium</a>
+          <a href='https://gadhagod.github.io/Hyrule-Compendium-API/#/' /*target='_blank'*/ >Zelda Comendium</a>
         </div>
         <h1>&nbsp;</h1>
         <h1>&nbsp;</h1>
